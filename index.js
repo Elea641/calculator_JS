@@ -44,22 +44,20 @@
 
 /* Price is right*/
 /* DO WHILE */
-const rightPrice = Math.ceil(Math.random() * 100);
-const namePlayer = prompt("Enter your name");
-let price;
+// const rightPrice = Math.ceil(Math.random() * 100);
+// const namePlayer = prompt("Enter your name");
+// let price;
 
-do {
-    price = prompt("Enter your price");
-    if (parseInt(price) !== rightPrice) {
-        if (parseInt(price) > rightPrice) {
-            console.log("It's less");
-        } else {
-            console.log("It's more");
-        }
-    }
-} while (parseInt(price) !== rightPrice);
+// do {
+//     price = prompt("Enter your price");
+//         if (parseInt(price) > rightPrice) {
+//             console.log("It's less");
+//         } else {
+//             console.log("It's more");
+//     }
+// } while (parseInt(price) !== rightPrice);
 
-console.log(`Well done ${namePlayer} you won!`);
+// console.log(`Well done ${namePlayer} you won!`);
 
 
 /* FOR */
